@@ -1,0 +1,5 @@
+{
+    "hidden_size": 2560,
+    "num_attention_heads": 40,
+    "num_hidden_layers": 48
+}

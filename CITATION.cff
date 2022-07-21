@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you find this research useful, please cite it as below."
+authors:
+- family-names: "Lim"
+  given-names: "Hwijoon"
+  email: hwijoon.lim@kaist.ac.kr
+  orcid: "https://orcid.org/0000-0002-9872-6234"
+- family-names: "Kim"
+  given-names: "Yechan"
+- family-names: "Yun"
+  given-names: "Sukmin"
+- family-names: "Shin"
+  given-names: "Jinwoo"
+- family-names: "Han"
+  given-names: "Dongsu"
+title: "TSPipe"
+version: 1.0.0
+date-released: 2022-07-17
+url: "https://github.com/kaist-ina/tspipe"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Lim"
+      given-names: "Hwijoon"
+      email: hwijoon.lim@kaist.ac.kr
+      orcid: "https://orcid.org/0000-0002-9872-6234"
+    - family-names: "Kim"
+      given-names: "Yechan"
+    - family-names: "Yun"
+      given-names: "Sukmin"
+    - family-names: "Shin"
+      given-names: "Jinwoo"
+    - family-names: "Han"
+      given-names: "Dongsu"
+  booktitle: "Proceedings of the 39th International Conference on Machine Learning"
+  publisher: PLMR
+  month: 7
+  day: 17-23
+  title: "TSPipe: Learn from Teacher Faster with Pipelines"
+  year: 2022
+  url: https://proceedings.mlr.press/v162/lim22a.html
+  pdf: https://proceedings.mlr.press/v162/lim22a/lim22a.pdf
+  editor: Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan
+  pages: 13302-13312
+  

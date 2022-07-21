@@ -1,0 +1,29 @@
+network:
+  name: resnet18
+  projection_head:
+    mlp_hidden_size: 512
+    projection_size: 128
+
+data_transforms:
+  s: 1
+  input_shape: (224,224,3)
+
+dataset:
+  name: imagenet
+  path: /datasets/imagenet
+
+trainer:
+  batch_size: 256
+  m: 0.996 # momentum update
+  checkpoint_interval: 5000
+  max_epochs: 50
+  num_workers: 28
+  acceleration: tspipe
+  dummy_input: False # To only test pipelining performance
+  lr_scheduler: cosine
+  optimizer_type: lars
+optimizer:
+  params:
+    lr: 0.2
+    momentum: 0.9
+    weight_decay: 0.0000015
